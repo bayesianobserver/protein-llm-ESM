@@ -1,0 +1,46 @@
+{
+  "best_metric": 0.9324534161490683,
+  "best_model_checkpoint": "esm2_t6_8M_UR50D-lora-finetuned-localization/checkpoint-966",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 966,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9262422360248447,
+      "eval_loss": 0.24344474077224731,
+      "eval_runtime": 236.8992,
+      "eval_samples_per_second": 5.437,
+      "eval_steps_per_second": 0.68,
+      "step": 483
+    },
+    {
+      "epoch": 1.04,
+      "grad_norm": 1.4152756929397583,
+      "learning_rate": 1.3098688750862665e-05,
+      "loss": 0.4592,
+      "step": 500
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.9324534161490683,
+      "eval_loss": 0.2178698182106018,
+      "eval_runtime": 203.2512,
+      "eval_samples_per_second": 6.337,
+      "eval_steps_per_second": 0.792,
+      "step": 966
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 1449,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "total_flos": 158844858280350.0,
+  "train_batch_size": 8,
+  "trial_name": null,
+  "trial_params": null
+}
